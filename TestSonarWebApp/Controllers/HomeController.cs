@@ -20,6 +20,8 @@ namespace TestSonarWebApp.Controllers
 
         public IActionResult About()
         {
+            string AboutHello = "Hello";
+            int Aboutmandatory = 1;
             ViewData["Message"] = "Your application description page.";
 
             return View();
